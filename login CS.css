@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+  font-family: 'Montserrat';
+  background-color: #000;
+  color: #fff;
+  }
+  
+  
+  /* Center the login form */
+  form {
+  margin: 0 auto;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  }
+  
+  /* Style the form fields */
+  label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  box-sizing: border-box;
+  background-color: #1a1a1a;
+  color: #fff;
+  }
+  
+  input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #005C39;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  
+  }
+  
+  input[type="submit"]:hover {
+  background-color: #005C39;
+  }
+
+  #register-button {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .noacount {
+    display: block;
+    text-align: center;
+  }

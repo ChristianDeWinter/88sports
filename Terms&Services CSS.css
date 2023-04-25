@@ -1,0 +1,161 @@
+/* Box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Header styles */
+header {
+  background-color: #005C39;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Main content styles */
+main {
+  padding: 40px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  background-color: #005C39;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+  transform: scale(1.05);
+}
+
+/* Membership page styles */
+.membership-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.membership-heading {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* Terms and Services page styles */
+.terms-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.terms-heading {
+  font-size: 3rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.terms-section {
+  margin-bottom: 40px;
+}
+
+.terms-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.terms-section p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.terms-section ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.terms-section li {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.terms-section li:before {
+  content: "\2022";
+  margin-right: 10px;
+  color: #005C39;
+}
+
+.terms-section a {
+  color: #005C39;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.terms-section a:hover {
+  text-decoration: underline;
+}

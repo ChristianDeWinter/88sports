@@ -1,0 +1,160 @@
+/* Box sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+/* Header styles */
+header {
+  background-color: #005C39;
+  padding: 20px;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Main content styles */
+main {
+  padding: 20px;
+}
+
+/* Heading styles */
+h1, h2, h3 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.btn {
+  display: inline-block;
+  background-color: #005C39;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Hero section styles */
+#hero {
+  position: relative;
+  overflow: hidden;
+}
+
+#hero:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom right, #005C39, #003319);
+  opacity: 0.8;
+  z-index: -1;
+}
+
+#hero img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+#hero:hover img {
+  transform: scale(1.05);
+}
+
+#hero .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 1;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  text-shadow: 3px 3px 0 #000000;
+}
+
+#hero p {
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 0 #000000;
+}
+
+#hero .btn {
+  font-size: 1.5rem;
+  padding: 15px 30px;
+  text-shadow: 2px 2px 0 #000000;
+}
+
+#hero .btn:hover {
+  transform: scale(1.1);
+}
+
+/* Membership page styles */
+.membership-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.membership-heading {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}  
